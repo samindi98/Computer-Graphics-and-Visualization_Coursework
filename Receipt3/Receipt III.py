@@ -33,7 +33,8 @@ axs[1].axis('off')  # Hide axes for better display
 plt.tight_layout()
 plt.show()
 
-# Also print the extracted text to the console
+
+# print the extracted text to the console
 print("Extracted Text from the Image:")
 print(extracted_text)
 
