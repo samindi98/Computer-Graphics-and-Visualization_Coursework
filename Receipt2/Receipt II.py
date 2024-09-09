@@ -3,7 +3,7 @@ import pytesseract
 from PIL import Image
 import matplotlib.pyplot as plt
 
-pytesseract.pytesseract.tesseract_cmd = r'"C:\Program Files\Tesseract-OCR\tesseract.exe"'
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 def extract_receipt_text(image_path):
     # Load the image
     image = cv2.imread(image_path)
