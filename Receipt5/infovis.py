@@ -10,7 +10,7 @@ def preprocess_image(image):
     plt.figure(figsize=(10, 6))
     plt.imshow(gray, cmap='gray', vmin=0, vmax=255)
     plt.title('Grayscale Image')
-    plt.axis('off')
+    plt.axis('on')
     plt.show()
     
     # Gaussian Blur
