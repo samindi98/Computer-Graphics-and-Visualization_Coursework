@@ -18,7 +18,7 @@ def preprocess_image(image):
     plt.figure(figsize=(10, 6))
     plt.imshow(blur, cmap='gray', vmin=0, vmax=255)
     plt.title('Gaussian Blur')
-    plt.axis('on')
+    plt.axis('off')
     plt.show()
     
     # Adaptive Thresholding
