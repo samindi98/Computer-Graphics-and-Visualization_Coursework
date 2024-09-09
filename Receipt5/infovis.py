@@ -26,7 +26,7 @@ def preprocess_image(image):
     plt.figure(figsize=(10, 6))
     plt.imshow(binarized, cmap='gray', vmin=0, vmax=255)
     plt.title('Adaptive Thresholding')
-    plt.axis('off')
+    plt.axis('on')
     plt.show()
     
     # Morphological Operation
