@@ -2,7 +2,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import pytesseract
 import matplotlib.pyplot as plt
 
-pytesseract.pytesseract.tesseract_cmd = r'"C:\Program Files\Tesseract-OCR\tesseract.exe"'
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Load the image
 image_path = "Recept-I.png"  
